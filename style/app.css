@@ -1,0 +1,54 @@
+.row { width: 960px; margin: 0 auto; }
+.row .container { display: flex; justify-content: space-between; align-items: center; }
+
+.header .row .logo { padding-bottom: 15px;}
+.header .row .container .search { height: 30px; font-size: 14px; padding-right: 30px; }
+.header .row .container .search input { padding: 6px; color: #1f201d; }
+.header .row .container .search { display: flex; justify-content: center; text-align: center; }
+.header .row .container .search input { padding: 6px; color: #1f201d; border: 1px solid; border-right: none; border-radius: 4px 0px 0px 4px; }
+.header .row .container .search button { border: 1px solid;  border-left: none;  background-color: #fff; border-radius: 0 4px 4px 0; }
+.header .row .container .search button i { padding: 6px; background: url('../assets/images/icon/search.png') no-repeat center center; padding: 10px 10px; }
+
+.header .row .container .card ul { list-style: none; display: flex; justify-content: flex-start; align-items: center; padding-right: 40px; }
+.header .row .container .card ul li { padding: 10px; font-size: 18px; border-right: 1px solid #e6e5e5; }
+.header .row .container .card ul li a { text-decoration: none; color: #1f201d; }
+
+
+.header .row .container .card { display: flex; justify-content: space-between; align-items: center; width: 100%; -webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.35); -moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.35); box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.35); }
+.header .row .container .card .icons { display: flex; padding-right: 8px; }
+.header .row .container .card .icons .facebook { display: block; width: 30px; height: 30px; background: url('../assets/images/icon/facebook.png') no-repeat center center;}
+.header .row .container .card .icons .twitter { display: block; width: 30px; height: 30px; background: url('../assets/images/icon/twitter.png') no-repeat center center;}
+.header .row .container .card .icons .google { display: block; width: 30px; height: 30px; background: url('../assets/images/icon/google.png') no-repeat center center;}
+
+
+
+.content .row .container .card-image { padding-top: 8px; }
+.content .row .container .card-image .item { position: relative; }
+.content .row .container .card-image .item .image { width: 960px; height: 350px; background-color: #da4a06;}
+
+.content .row .container .card-image .item .right { background-color: rgba(0, 0, 0, 0.25); position: absolute; width: 345px; height: 94%; top: 0; right: 0; padding: 10px; color: #fff;}
+.content .row .container .card-image .item .right .title { font-size: 30px; color: #ff9501; }
+.content .row .container .card-image .item .right .description { font-size: 16px; color: #fff; }
+.content .row .container .card-image .item .right .button-group { text-align: center; }
+.content .row .container .card-image .item .right .button-group .btn { height: 45px; border-radius: 3px; background-color: #df0500; color:#fff; font-size: 20px; padding: 10px; }
+
+
+.content .row .container .card-list { display: flex; justify-content: space-between; align-items: center; }
+.content .row .container .card-list .item { width:calc(100%/3); padding: 15px; }
+.content .row .container .card-list .item .title{ font-size: 20px; color: #000;}
+.content .row .container .card-list .item .description { font-size: 14px; color: #5f5d5d; }
+.content .row .container .card-list .item .btn-readmore { padding: 7px 15px; border: 1px solid #dfdfdf; border-radius: 3px; color: #1e2723; }
+
+
+.content .row .container .card-more { display: flex; justify-content: space-around; align-items: center; background: #f6f6f6; padding: 8px;}
+.content .row .container .card-more .title { font-size: 18px; }
+.content .row .container .card-more .btn {padding: 10px 8px; font-size: 18px; color: #fff; background-color: #dd0100; border-radius: 3px; border: 1px solid transparent;     }
+
+.footer { padding-top: 8px; }
+.footer .row .container { height: 230px; padding: 0 20px; background: #d44202;}
+.footer .row .container .card-list {  display: flex; justify-content: space-between; width: 100%; border: 1px solid #fff; padding: 20px; }
+.footer .row .container .card-list .menu-card {}
+.footer .row .container .card-list .menu-card .item .title{ font-size: 20px; padding-top: 30px; color: #fff;}
+.footer .row .container .card-list .menu-card .item ul { list-style: none; padding: 0; font-size: 14px; color: #fff; }
+
+.row .container .copy { font-size: 14px;}
